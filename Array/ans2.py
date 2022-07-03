@@ -9,11 +9,10 @@ heros.pop()
 heros.insert(3,'black panther')
 print(heros)
 #4
-heros[1]='doctor strange'
-heros.pop(2)
+heros[1:3]=['doctor strange']
+print(heros)
 #5
-dir(heros)
-print(heros.sort())
-
+heros.sort()
+print(heros)
 
 
